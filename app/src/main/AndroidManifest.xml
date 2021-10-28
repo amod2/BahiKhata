@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.bahikhata">
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/notbook"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/sucsess"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BahiKhata">
+        <activity android:name=".paid"></activity>
+        <activity android:name=".unpaid" />
+        <activity android:name=".udhar_info" />
+        <activity android:name=".dashboard" />
+        <activity android:name=".seeUdhari" />
+        <activity android:name=".add_udhari" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>
